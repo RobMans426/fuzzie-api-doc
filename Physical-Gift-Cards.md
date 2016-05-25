@@ -7,7 +7,7 @@ A Fuzzie gift card will have 2 unique codes associated with it. Both these codes
 
 1. *Merchant Code*: This code will be either visible on the gift card or embedded within a barcode or QR code. This code is used by the merchant, at the POS for activating the card.
 
-2. *Gift Code*: This won't be visible directly on the card. The user who buys the gift card will need to scratch the card to access this code. This code needs to be entered into the Fuzzie App to add the gift card to a user's gift box. The user can then redeem the gift by showing this gift card within the Fuzzie app at a store. 
+2. *Gift Code*: This won't be visible directly on the card. The user who buys the gift card will need to scratch the card to access this code. This code needs to be entered into the Fuzzie App to add the gift card to a user's gift box. The user can then redeem the gift by showing this gift card within the Fuzzie app, at a store. 
 
 
 Gift Card Activation at POS
@@ -15,15 +15,15 @@ Gift Card Activation at POS
 
 To activate a gift card, the POS will need to make an API call to the Fuzzie server. This request has to include the following:
 
-1. Secret API token.
+* Secret API token.
 
 This needs to be included as an HTTP Header `HTTP_API_TOKEN`
 
-2. Merchant code of the gift card.
+* Merchant code of the gift card.
 
 The merchant (cashier) needs to enter this on the POS either by reading the merchant code on a gift card or by scanning a bar code.
 
-3. Store identifier. 
+* Store identifier. 
 
 Every store should have a unique identifier. This is needed so that Fuzzie can track the store from where a particular gift card has been sold/activated.
 
