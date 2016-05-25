@@ -47,7 +47,7 @@ Example: [POST] http://fuzzie.com.sg/api/codes/FUZZIEUIBC3KX/activate
 Response
 --------
 
-1. Success
+* Success
 
 ```
 Status: 200
@@ -63,7 +63,7 @@ Status: 200
 ```
 
 
-2. Failure
+* Failure
 
 ```
 Status Code: 404
