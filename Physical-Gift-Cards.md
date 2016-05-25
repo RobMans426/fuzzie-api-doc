@@ -42,7 +42,18 @@ Every store should have a unique identifier. This is needed so that Fuzzie can t
 Checking if the Gift card can be activated
 ------------------------------------------
 
-```[GET] /api/codes/:merchant_code/check```
+```
+[GET] /api/codes/:merchant_code/check
+
+Params: {store_id: 'store-identifier'}
+
+Headers: HTTP_API_TOKEN
+
+Example: [GET] http://fuzzie.com.sg/api/codes/FUZZIEUIBC3KX/check
+          Params: {'store-id' : fee8bc53-e3a0-48bc-a26c-95ac0d6a3e21}
+          Headers: {HTTP_API_TOKEN=abcdef123*$%}
+
+```
 
 * Success
 
