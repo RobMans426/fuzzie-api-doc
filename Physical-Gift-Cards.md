@@ -14,12 +14,9 @@ Gift Card Activation at POS
 =============================
 
 1. Obtain the merchant code from the gift card and enter it in the POS software.
-
 2. POS software contacts Fuzzie servers with the merchant code to check if its a valid one. 
    ie. if it can be activated.
-
 3. If its a valid code, proceed with the sale of the gift card. 
-
 4. Once the sale is done on the POS, it should make another API call to Fuzzie servers to activate
    the gift card.
 
