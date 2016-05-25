@@ -56,7 +56,7 @@ Status: 200
     {
       "expiration_date":"2016-08-07",
       "activated_at":"2016-05-09T07:24:48.817Z",
-      "merchant_code":"dsfdsfdsfgesrgt"
+      "merchant_code":"FUZZIEUIBC3KX"
     }
 }
 
