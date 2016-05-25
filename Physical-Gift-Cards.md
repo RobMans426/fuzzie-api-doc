@@ -1,4 +1,6 @@
-A Fuzzie gift card will have 2 unique codes associated with it.
+A gift card is sold offline to a user at a store. At this point, the POS needs to activate the gift card by making an API call to the Fuzzie servers. Only an activated gift card can later be redeemed.
+
+A Fuzzie gift card will have 2 unique codes associated with it. Both these codes will be unique to a particular gift card.
 
 1. Merchant Code: This code will be either visible on the gift card or embedded within a barcode or QR code. This code is used by the merchant, at the POS for activating the card.
 
@@ -8,6 +10,11 @@ A Fuzzie gift card will have 2 unique codes associated with it.
 Gift Card Activation at POS
 =============================
 
+To activate a gift card, the POS will need to make an API call to the Fuzzie server. This request has to include the following:
+
+1. Secret API token (as HTTP HEADER `HTTP_API_TOKEN`)
+2. Merchant code of the gift card.
+3. Store identifier. 
 
 Request
 -------
