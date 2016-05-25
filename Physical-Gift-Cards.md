@@ -13,14 +13,14 @@ A Fuzzie gift card will have 2 unique codes associated with it. Both these codes
 Gift Card Activation at POS
 =============================
 
-* Obtain the merchant code from the gift card and enter it in the POS software.
+1. Obtain the merchant code from the gift card and enter it in the POS software.
 
-* POS software contacts Fuzzie servers with the merchant code to check if its a valid one. 
+2. POS software contacts Fuzzie servers with the merchant code to check if its a valid one. 
    ie. if it can be activated.
 
-* If its a valid code, proceed with the sale of the gift card. 
+3. If its a valid code, proceed with the sale of the gift card. 
 
-* Once the sale is done on the POS, it should make another API call to Fuzzie servers to activate
+4. Once the sale is done on the POS, it should make another API call to Fuzzie servers to activate
    the gift card.
 
 
@@ -39,8 +39,39 @@ The merchant (cashier) needs to enter this on the POS either by reading the merc
 Every store should have a unique identifier. This is needed so that Fuzzie can track the store from where a particular gift card has been sold/activated.
 
 
-API Request
------------
+Checking if the Gift card can be activated
+------------------------------------------
+
+[GET] /api/codes/:merchant_code/check
+
+* Success
+
+Status: 200
+{
+  "activatable": "true"
+}
+
+* Failure
+
+Status Code: 404
+{
+  "message": "Invalid code"
+}
+Status Code: 410
+{
+  "message": "Used code"
+}
+Status Code: 409
+{
+  "message": "Already activated"
+}
+
+
+___________________________________________________________
+
+Activating the gift card
+------------------------
+
 
 ```
 [POST] /api/codes/:merchant_code/activate
@@ -97,3 +128,4 @@ Status Code: 409
 }
 
 ```
+___________________________________________________________
