@@ -1,4 +1,4 @@
-A gift card is sold offline to a user at a store. At this point, the POS needs to activate the gift card by making an API call to the Fuzzie servers. Only an activated gift card can later be redeemed.
+A gift card is sold offline to a user at a store. At this point, the POS needs to activate the gift card by making an HTTP API call to the Fuzzie servers. Only an activated gift card can later be redeemed.
 
 A Fuzzie gift card will have 2 unique codes associated with it. Both these codes will be unique to a particular gift card.
 
@@ -12,20 +12,32 @@ Gift Card Activation at POS
 
 To activate a gift card, the POS will need to make an API call to the Fuzzie server. This request has to include the following:
 
-1. Secret API token (as HTTP HEADER `HTTP_API_TOKEN`)
+1. Secret API token.
+
+This needs to be included as an HTTP Header `HTTP_API_TOKEN`
+
 2. Merchant code of the gift card.
+
+The merchant (cashier) needs to enter this on the POS either by reading the merchant code on a gift card or by scanning a bar code.
+
 3. Store identifier. 
 
-Request
--------
+Every store should have a unique identifier. This is needed so that Fuzzie can track the store from where a particular gift card has been sold/activated.
+
+
+API Request
+-----------
 
 ```
 [POST] /api/codes/:merchant_code/activate
 
 Params: {store_id: 'store-identifier'}
 
+Headers: HTTP_API_TOKEN
+
 Example: [POST] http://fuzzie.com.sg/api/codes/FUZZIEUIBC3KX/activate
           Params: {'store-id' : fee8bc53-e3a0-48bc-a26c-95ac0d6a3e21}
+          Headers: {HTTP_API_TOKEN=abcdef123*$%}
 
 ```
 
