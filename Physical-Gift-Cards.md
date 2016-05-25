@@ -1,3 +1,6 @@
+Fuzzie Gift Card
+================
+
 A gift card is sold offline to a user at a store. At this point, the POS needs to activate the gift card by making an HTTP API call to the Fuzzie servers. Only an activated gift card can later be redeemed.
 
 A Fuzzie gift card will have 2 unique codes associated with it. Both these codes will be unique to a particular gift card.
