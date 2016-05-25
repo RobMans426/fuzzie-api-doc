@@ -42,29 +42,39 @@ Every store should have a unique identifier. This is needed so that Fuzzie can t
 Checking if the Gift card can be activated
 ------------------------------------------
 
-[GET] /api/codes/:merchant_code/check
+```[GET] /api/codes/:merchant_code/check```
 
 * Success
 
+```
 Status: 200
 {
   "activatable": "true"
 }
+```
 
 * Failure
 
+```
 Status Code: 404
 {
   "message": "Invalid code"
 }
+```
+
+```
 Status Code: 410
 {
   "message": "Used code"
 }
+```
+
+```
 Status Code: 409
 {
   "message": "Already activated"
 }
+```
 
 
 ___________________________________________________________
