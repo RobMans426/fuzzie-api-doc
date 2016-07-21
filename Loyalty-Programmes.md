@@ -1,8 +1,8 @@
 Loyalty Programmes
-------------------
+==================
 
 Get the list of loyalty programmes
-__________________________________
+----------------------------------
 
 Request
 
@@ -25,9 +25,11 @@ Response
 
 ```
 
+__________________________________________________________________________________
 
-2. Link a user account to one or more loyalty programmes
 
+Link a user account to one or more loyalty programmes
+-----------------------------------------------------
 Request
 
 `[POST] /api/loyalty_programmes/link`
