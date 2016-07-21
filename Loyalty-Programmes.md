@@ -1,7 +1,8 @@
 Loyalty Programmes
 ------------------
 
-1. Get the list of loyalty programmes
+Get the list of loyalty programmes
+__________________________________
 
 Request
 
