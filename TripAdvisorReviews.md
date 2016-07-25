@@ -1,6 +1,8 @@
 Tripadvisor Reviews & Ratings
 -----------------------------
 
+Get list of reviews and ranking data from Tripadvisor
+
 Request
 
 `[GET] /api/brands/:brand_id/tripadvisor`
