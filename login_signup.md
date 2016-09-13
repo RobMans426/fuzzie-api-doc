@@ -28,6 +28,13 @@ Email Signup
 }
 ```
 
+FB login/signup
+
+```
+[POST] /user
+X-Facebook-Token: <facebook token>
+```
+
 OTP (this won’t send any SMS verification as of now)
 ```
 [POST] '/phone/9008298574/verify'
