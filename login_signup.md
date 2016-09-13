@@ -1,4 +1,4 @@
-1. Email Login
+Email Login
 
 ```
 [POST] `/user/email_login`
@@ -14,7 +14,7 @@ On success
 }
 ```
 
-2. Email Signup
+Email Signup
 
 ```
 [POST] `/user/email_register`
@@ -28,7 +28,7 @@ On success
 }
 ```
 
-3. OTP (this won’t send any SMS verification as of now)
+OTP (this won’t send any SMS verification as of now)
 ```
 [POST] '/phone/9008298574/verify'
 
