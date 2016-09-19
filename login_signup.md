@@ -26,7 +26,8 @@ Email Signup
   birthdate: '03/05/1985' 
   profile_picture: <image data like in usual file uploads>,
   password: 'kmcdka09',
-  password_confirmation: 'kmcdka09'
+  password_confirmation: 'kmcdka09',
+  phone: '9008298574'
 }
 ```
 
