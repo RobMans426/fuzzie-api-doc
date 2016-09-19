@@ -23,10 +23,14 @@ Email Signup
   first_name: 'Optimus', 
   last_name, 'Prime',
   email: 'optimus@autobots.com' 
-  birthdate: '05-03-1985' 
-  profile_picture: <image data like in usual file uploads>
+  birthdate: '03/05/1985' 
+  profile_picture: <image data like in usual file uploads>,
+  password: 'kmcdka09',
+  password_confirmation: 'kmcdka09'
 }
 ```
+
+`birthdate` should be in `mm/dd/yyyy` format.
 
 FB login/signup
 
