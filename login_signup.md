@@ -42,7 +42,7 @@ X-Facebook-Token: <facebook token>
 
 OTP (this won’t send any SMS verification as of now)
 ```
-[POST] '/phone/9008298574/verify'
+[POST] '/api/phone/6326/verify'
 
-Response: {otp: '4569'}
+Response: if success then status code of `200` else `404`
 ```
