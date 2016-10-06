@@ -40,7 +40,7 @@ FB login/signup
 X-Facebook-Token: <facebook token>
 ```
 
-OTP (this won’t send any SMS verification as of now)
+OTP Verification
 ```
 [POST] '/api/phone/6326/verify'
 
