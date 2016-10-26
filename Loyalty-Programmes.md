@@ -1,6 +1,28 @@
 Loyalty Programmes
 ==================
 
+Note: All the calls are authenticaed. Send `X-Fuzzie-Token`
+
+
+Add/Edit Citizen Number of a user
+---------------------------------
+
+Request
+
+`[PUT] /api/loyalty_programmes/user`
+
+Params
+
+
+{
+  number: 1232432
+}
+
+
+Response: 200
+
+____________________________
+
 Get the list of loyalty programmes
 ----------------------------------
 
@@ -10,7 +32,7 @@ Request
 
 Response
 
-```
+
 [
   {
     name: 'Capistar'
@@ -23,25 +45,50 @@ Response
   }
 ]
 
-```
-
-__________________________________________________________________________________
 
 
-Link a user account to one or more loyalty programmes
------------------------------------------------------
+____________________________
+
+Get the list of loyalty programmes for the current user
+-------------------------------------------------------
+
+Request
+
+`[GET] /api/loyalty_programmes/user`
+
+____________________________
+
+
+Link a user account to a loyalty programme
+------------------------------------------
 Request
 
 `[POST] /api/loyalty_programmes/link`
 
 Params
 
-```
+
 {
-  number: '827DB2N71',
-  loyalty_programme_ids: [1,2,3]
+  id: 12
 }
-```
+
 
 Response: 200
 
+____________________________
+
+Unlink a user from a  loyalty programme
+---------------------------------------
+Request
+
+`[DELETE] /api/loyalty_programmes/unlink`
+
+Params
+
+
+{
+  id: 12
+}
+
+
+Response: 200
