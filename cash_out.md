@@ -3,13 +3,13 @@ Bank Accounts Management
 
 All requests are authenticated. Send `Fuzzie-Token`
 
-1. Get the list of all Bank accounts of a user
+- Get the list of all Bank accounts of a user
 
 ```
 GET /api/bank_accounts
 ```
 
-2. Create a new Bank Account
+- Create a new Bank Account
 
 ```
 POST /api/bank_accounts
@@ -20,7 +20,7 @@ POST /api/bank_accounts
 }
 ```
 
-3. Edit a Bank Account
+- Edit a Bank Account
 
 ```
 [PUT] /api/bank_accounts/4
@@ -37,13 +37,12 @@ ________________________________________________________________________________
 CashOut Requests
 ----------------
 
-1. Get the list of active cash out requests of a user.
+- Get the list of active cash out requests of a user.
 
 ```
 GET /api/cash_out_requests
 ```
-
-2. Create a new CashOutRequest
+- Create a new CashOutRequest
 ```
 POST /api/cash_out_requests
 {
@@ -52,7 +51,7 @@ POST /api/cash_out_requests
 }
 ```
 
-3. Cancel a CashOutRequest
+- Cancel a CashOutRequest
 ```
 DELETE /api/cash_out_requests/12
 ```
