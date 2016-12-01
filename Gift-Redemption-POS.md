@@ -1,4 +1,4 @@
-# Gift Redemption Process
+# Gift Redemption Process (for POS integration)
 
 It is a two step process:
 
