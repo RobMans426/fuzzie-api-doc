@@ -55,3 +55,12 @@ params: {email_or_phone: 'pearlychan341@yahoo.com.sg'}
 
 Response: 200 if the email/phone exists in Users database. Else 404. 
 ```
+
+Update password
+
+```
+[PUT] /user/update_password
+{
+  current_password: 'abcdefg',
+  new_password: 'newpassword'
+}
