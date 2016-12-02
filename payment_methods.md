@@ -3,20 +3,20 @@ Payment Methods
 
 Pass X-Fuzzie-Token header for all requests
 
-1. Create a new payment method for a user
+- Create a new payment method for a user
 
 ```
   [POST] /api/payment_methods
   params: {payment_method_nonce: 'abcedfghij'}
 ```  
 
-2. Delete a payment method
+- Delete a payment method
 
 ```
   [DELETE] /api/payment_methods/:token
 ````
 
-3. List all payment methods for a user
+- List all payment methods for a user
 
 ```
   [GET] /api/payment_methods
@@ -40,7 +40,7 @@ Pass X-Fuzzie-Token header for all requests
 `default` will be set to true, if this payment method has been set as the default payment method by the user.     
 ```
 
-4. Set a payment method as default
+- Set a payment method as default
 
 ```
 [PUT] /api/payment_methods/set_default
