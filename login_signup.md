@@ -33,11 +33,32 @@ Email Signup
 
 `birthdate` should be in `mm/dd/yyyy` format.
 
-FB login/signup
+FB login
 
 ```
 [POST] /user
 X-Facebook-Token: <facebook token>
+
+Response can have 3 different status codes:
+
+1. 200
+
+This indicates successful login and the User object is returned.
+
+2. 226
+
+This indicates that the user is already present in the database, but phone number is absent (old existing users)
+User object will be returned with this as well. Show the user a page similar to email signup with details prefilled (without the password) and empty phone number field. Submit this page using the FB register API given below.
+
+3. 202
+
+This indicates that the user is a new one. The user data obtained from Facebook will be returned. Show the user a page similar to email signup with details prefilled (without the password) and empty phone number field. Submit this page using the FB register API given below.
+```
+
+FB Signup
+```
+[POST] /user/facebook_register
+Similar to the Email signup API. OTP will be send to the user. 
 ```
 
 OTP Verification
