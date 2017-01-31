@@ -11,9 +11,11 @@ API
 
 1. Add/remove brands and list the liked list
 
+```
 [PUT]    http://localhost:3000/liked_list/41976500-f380-4ead-8f7b-a70651ac820b
 [DELETE] http://localhost:3000/liked_list/41976500-f380-4ead-8f7b-a70651ac820b
 [GET]    http://localhost:3000/liked_list
+```
 
 2. Changes in the Home API
 
