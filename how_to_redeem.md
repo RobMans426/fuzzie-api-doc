@@ -10,7 +10,7 @@ Format of the How To Redeem object
 ----------------------------------
 
 It will be an array of objects of the format
-
+```
 [
   {
     title: 'Step 1',
@@ -18,3 +18,4 @@ It will be an array of objects of the format
     image: 'this is optional - can be an image url or null'
   }
 ]
+```
