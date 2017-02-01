@@ -46,3 +46,10 @@ Pass X-Fuzzie-Token header for all requests
 [PUT] /api/payment_methods/set_default
 {token: '32df3'}
 ```
+
+- Fetch a Nonce for a given Token
+
+```
+[GET] /api/payment_methods/jjzp3t
+Response will a payment method object in the same format as `/api/payment_methods`
+```
