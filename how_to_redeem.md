@@ -5,7 +5,7 @@ Request
 -------
 ```
 [GET] /api/redeem_details/brand-id
-``
+```
 Response
 --------
 
