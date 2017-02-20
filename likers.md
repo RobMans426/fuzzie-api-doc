@@ -17,9 +17,6 @@ API
 [GET]    http://localhost:3000/liked_list
 ```
 
-2. Changes in the Home API
+2. Home API
 
-- `liked_list_ids` added in User object, similar to `wish_list_ids`
-- `likers` have been added in the Brand object, similar to `wish_listers` (array of User objects)
-
-Note: Once these changes are deployed, the present wish-list will be converted to the liked list and the wishlist for all users will go empty.
+- `likers_count` added in User object
