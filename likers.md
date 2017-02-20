@@ -1,4 +1,4 @@
-Likers
+Likers (Heart icon)
 ------
 
 We are going to have 2 separate lists of every user:
