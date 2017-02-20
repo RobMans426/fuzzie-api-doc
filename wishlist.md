@@ -18,3 +18,8 @@
 [DELETE] /wish_list/:brand_id
 ```
 
+Home API
+
+```
+wish_listers_count added 
+```
