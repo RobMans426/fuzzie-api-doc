@@ -21,5 +21,5 @@
 Home API
 
 ```
-wish_listers_count added 
+wish_listers_count added to Brand object.
 ```
