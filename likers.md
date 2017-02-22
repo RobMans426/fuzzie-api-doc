@@ -19,4 +19,4 @@ Add/remove brands and list the liked list
 
 Home API
 
-- `likers_count` added in User object
+- `likers_count` added in Brand object
