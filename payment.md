@@ -25,3 +25,12 @@ There are 2 API calls that deal with payment:
 [POST] /api/shopping_bag/checkout
 params - same as the Express Checkout. Omit the `gift_card_type` parameter.
 ```
+
+Errors
+
+1. Invalid Payment 
+
+2. Gift card sold out
+
+Code: 406
+The response JSON will have a `message` key. Its value needs to be displayed to the user. 
