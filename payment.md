@@ -28,11 +28,11 @@ params - same as the Express Checkout. Omit the `gift_card_type` parameter.
 
 Errors
 
-1. Invalid Payment 
+- Invalid Payment 
 
 Code: 422
 
-2. Gift card sold out
+- Gift card sold out
 
 Code: 406
 The response JSON will have a `message` key. Its value needs to be displayed to the user. 
