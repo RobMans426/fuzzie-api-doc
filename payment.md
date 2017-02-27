@@ -30,6 +30,8 @@ Errors
 
 1. Invalid Payment 
 
+Code: 422
+
 2. Gift card sold out
 
 Code: 406
