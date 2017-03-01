@@ -1,7 +1,7 @@
 Signup with referral code
 =========================
 
-Use the regular Signup API calls with an addition `referred_by_code` parameter. Everything else remain the same.
+Use the regular [Signup API calls](https://github.com/fuzziegang/fuzzie-api-doc/blob/master/login_signup.md) with an addition `referred_by_code` parameter. Everything else remain the same.
 
 
 Get details of the Referrals made by the current user
