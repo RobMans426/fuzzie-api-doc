@@ -1,8 +1,5 @@
-Gift Card Redemption on the Fuzzie App
-======================================
-
-Gift Activation Code
---------------------
+Code Redemption or Activation
+=============================
 
 ```
 [POST] /api/codes/FCXQD39E9/redeem
@@ -11,13 +8,33 @@ Gift Activation Code
 
 * Success
 
+Depending on the type of code redeemed, response will be one of the below:
+
 ```
 Status: 200
+
 {
-  gift: <Gift Object>
+  type: 'PowerUpCode', 
+  time_to_expire: 24, 
+  brands: [1,2,3,4]  
 }
 
-Gift Object will also contain a `cash_back` key that contains the amount of cash back received while redeeming this code.
+OR
+
+{
+  type: 'WalletCode', 
+  credits: 25
+}
+
+OR
+
+{
+  type: 'ActivationCode',
+  brand_name: 'Lazada',
+  cash_back: 0,
+  gift_type: 'GiftCard',
+  gift_title: '25$ Lazada E-GiftCard'
+}
 
 ```
 
