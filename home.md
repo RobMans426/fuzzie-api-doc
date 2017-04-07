@@ -1,6 +1,10 @@
 Home
 ----
 
+```
+/api/home
+```
+
 This API endpoint provides the client app with almost all of the data that it needs. It includes
 
 - brands
@@ -19,6 +23,7 @@ This API endpoint provides the client app with almost all of the data that it ne
 - mini_banners
 - min_banner_positions
 - top_brands
+- new_brands
 
 ```
 [GET] /home
