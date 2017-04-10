@@ -91,7 +91,8 @@ Update password
 
 Error Codes
 
-1. 406
-2. 422
+1. 422 - Email already registered.
+2. 406 - Phone already registered 
+3. 406 - This account is linked to Facebook. Please login by Facebook
 
 The response will have a `message` key, which will contain the appropriate error message. 
