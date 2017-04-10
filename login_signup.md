@@ -14,6 +14,8 @@ On success
 }
 ```
 
+On Failure: 401
+
 Email Signup
 
 ```
