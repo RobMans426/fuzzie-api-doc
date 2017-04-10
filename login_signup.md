@@ -85,3 +85,10 @@ Update password
   current_password: 'abcdefg',
   new_password: 'newpassword'
 }
+
+Error Codes
+
+1. 406
+2. 422
+
+The response will have an `error` key, which will contain the appropriate error message. 
