@@ -85,6 +85,7 @@ Update password
   current_password: 'abcdefg',
   new_password: 'newpassword'
 }
+```
 
 Error Codes
 
