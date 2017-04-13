@@ -1,3 +1,12 @@
+Referral code/url of the current user
+=====================================
+
+[GET] http://fuzzie.com.sg/user with X-FUZZIE-TOKEN header.
+
+Response will have a `referral_code` as well as `referral_url` key.
+
+
+
 Signup with referral code
 =========================
 
