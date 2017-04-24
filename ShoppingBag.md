@@ -28,7 +28,12 @@ Add/Remove/List
 ---------------
 
 ```
-  [POST]    /api/shopping_bag/add    {id: gift-card or service ID}
-  [DELETE]  /api/shopping_bag/remove {id: gift-card or service ID}
+  [POST]    /api/shopping_bag/add    {ids: gift-card or service ID, separated by comma}
+  [DELETE]  /api/shopping_bag/remove {ids: gift-card or service ID, separated by comma}
   [GET]     /api/shopping_bag/items
+  
+  Example: 
+  
+  [POST]   /api/shopping_bag/add?ids=7b061eca,f6cce788
+  [DELETE] /api/shopping_bag/remove?ids=7b061eca,f6cce788
 ```
