@@ -43,21 +43,21 @@ OR
 ```
 Status Code: 404
 {
-  "message": "Invalid code"
+  "message": "You have entered an invalid code."
 }
 ```
 
 ```
 Status Code: 410
 {
-  "message": "Used code"
+  "message": "You have already used this code or it has expired."
 }
 ```
 
 ```
 Status Code: 409
 {
-  "message": "Code not activated"
+  "message": "This code has not been activated."
 }
 ```
 
