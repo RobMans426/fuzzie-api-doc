@@ -45,6 +45,9 @@ and contains a brand ID, then place this mini banner only on this specific brand
 
 3. `payment_page`: Pick all mini banners that have `payment_page` in `locations` and place them in a slider 
 
+
+Home API also contains the below keys, which show the possible values of `locations` and the meaning of the different values of the `position` in the MiniBanner object.
+
 ```
 "mini_banner_locations": [
   "home_page",
