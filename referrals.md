@@ -6,13 +6,6 @@ Referral code/url of the current user
 Response will have a `referral_code` as well as `referral_url` key.
 
 
-
-Signup with referral code
-=========================
-
-Use the regular [Signup API calls](https://github.com/fuzziegang/fuzzie-api-doc/blob/master/login_signup.md) with an additional `referred_by_code` parameter. Everything else remain the same.
-
-
 Get details of the Referrals made by the current user
 =====================================================
 
