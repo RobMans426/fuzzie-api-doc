@@ -9,30 +9,33 @@ CashBack Summary
 Pass X-FUZZIE-TOKEN
 
 optional params: 
-
+```
 {
   payment_method_token: 'abcdef',
   promo_code: 'MYPROMOCODE'  
 }
-
+```
 2. Shopping Bag
 ---------------
 
-[GET] /api/shopping_bag/cashback_summary
+```
+  [GET] /api/shopping_bag/cashback_summary
+```
 
 Pass X-FUZZIE-TOKEN
 
 optional params: 
-
+```
 {
   payment_method_token: 'abcdef',
   promo_code: 'MYPROMOCODE'  
 }
-
+```
 
 Response
 --------
 
+```
 {
   gifts: [
     {
@@ -76,3 +79,4 @@ Response
     cashback: 82
   }
 }
+```
