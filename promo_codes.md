@@ -20,6 +20,6 @@ Success:
 Failure:
 
 ```
-1. 406 {error: 'Invlaid Promo Code'}
-2. 407 {error: 'Expired or already been used'}
+1. 411 {error: 'Invlaid Promo Code'}
+2. 412 {error: 'Expired or already been used'}
 ```
