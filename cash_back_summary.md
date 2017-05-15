@@ -4,7 +4,7 @@ CashBack Summary
 1. Single Gift
 --------------
 
-[GET] /api/cashback_summary/:gift_template_id
+[GET] /api/cashback_summary/:gift_card_type
 
 Pass X-FUZZIE-TOKEN
 
@@ -39,7 +39,7 @@ Response
 {
   gifts: [
     {
-      gift_template_id: 'asbc123',
+      gift_card_type: 'asbc123',
       price: 50,
       cash_back: {
         percentage: 10,
@@ -48,7 +48,7 @@ Response
     },
 
     {
-      gift_template_id: 'xyz123',
+      gift_card_type: 'xyz123',
       price: 200
       cash_back: {
         percentage: 20,
