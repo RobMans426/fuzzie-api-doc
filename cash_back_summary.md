@@ -4,7 +4,7 @@ CashBack Summary
 1. Single Gift
 --------------
 
-[GET] /api/gifts/:gift_template_id/cashback_summary
+[GET] /api/cashback_summary/:gift_template_id
 
 Pass X-FUZZIE-TOKEN
 
