@@ -19,7 +19,7 @@ optional params:
 ---------------
 
 ```
-  [GET] /api/shopping_bag/cashback_summary
+  [GET] /api/cashback_summary/shopping_bag
 ```
 
 Pass X-FUZZIE-TOKEN
