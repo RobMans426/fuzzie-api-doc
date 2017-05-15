@@ -66,17 +66,9 @@ Response
     }
   },
 
-  campaigns: {
-    title: 'DBC Camapign',
-    cash_back: {
-      percentage: 5,
-      value: 12
-    }
-  },
-
   total: {
     price: 250,
-    cashback: 82
+    cashback: 70
   }
 }
 ```
