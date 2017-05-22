@@ -1,11 +1,16 @@
+Request
+-------
+
+`[GET] /gift_box/1`
+
 Response
 --------
-
+```
 {
   "active": [],
   "used": []
 }
-
+```
 Both `active` and `used` are array of `Gift` objects. 
 
 A Sample Gift Object
