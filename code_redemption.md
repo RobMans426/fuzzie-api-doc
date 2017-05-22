@@ -36,6 +36,14 @@ OR
   gift_title: '25$ Lazada E-GiftCard'
 }
 
+OR
+
+{
+  type: 'ReferralCode', 
+  credits: 5, 
+  referer: "Will Smith"
+}
+
 ```
 
 * Failure
