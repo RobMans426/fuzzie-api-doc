@@ -10,7 +10,7 @@ Both `active` and `used` are array of `Gift` objects.
 
 A Sample Gift Object
 --------------------
-
+```
 {
       "id": "ab137b72-3ceb-49cb-8c92-8962bb90e5d8",
       "code": "38326584",
@@ -355,3 +355,4 @@ A Sample Gift Object
       "service": null
     }
 
+```
