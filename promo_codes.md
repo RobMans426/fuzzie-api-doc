@@ -1,8 +1,19 @@
 Promo Code Validation
 =====================
 
+Request
+-------
+
 ```
 [GET] /api/promo_codes/MYPROMOCODE/validate
+```
+
+Optional params
+
+```
+{
+  payment_method_token: 'abcdef',
+}
 ```
 
 Response
