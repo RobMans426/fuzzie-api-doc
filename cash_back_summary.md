@@ -64,6 +64,24 @@ Response
       percentage: 10,
       value: 25
     }
-  }
+  },
+  
+  campaigns: [
+    {
+      title: "DCB Diners Choice", 
+      cash_back: {
+        percentage: 3,
+        value: 7
+      } 
+    },
+    
+    {
+      title: "Visa Card CashBack", 
+      cash_back: {
+        percentage: 5,
+        value: 12
+      } 
+    }
+  ]
 }
 ```
