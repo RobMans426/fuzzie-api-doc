@@ -64,11 +64,6 @@ Response
       percentage: 10,
       value: 25
     }
-  },
-
-  total: {
-    price: 250,
-    cashback: 70
   }
 }
 ```
