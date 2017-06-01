@@ -2,12 +2,12 @@ iOS
 ---
 
 ```
-  POST http://beta.fuzzie.com.sg/api/push/ios
+  POST http://beta.fuzzie.com.sg/api/push/test
   
   Headers: {X-Fuzzie-Token: ''}
   
   Params: {
     message: 'test message',
-    payload: {}
+    payload: {redirect_to: 'home}
   }
 ```
