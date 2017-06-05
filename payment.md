@@ -44,5 +44,6 @@ Note for app developers
 
 Payment bug- HSBC webview cookies error. Solution given below by Braintree. Add this to the docs for future reference.
 
-```Regarding the iOS case, I've performed a number of tests myself and confirmed that setting the cookieAcceptPolicy on NSHTTPCookieStorage sharedHTTPCookieStorageto NSHTTPCookieAcceptPolicyAlways works, as long as the cookieAcceptPolicy isn't being overridden elsewhere, and displays the HSBC authentication page instead of the error page.
+```
+Regarding the iOS case, I've performed a number of tests myself and confirmed that setting the cookieAcceptPolicy on NSHTTPCookieStorage sharedHTTPCookieStorageto NSHTTPCookieAcceptPolicyAlways works, as long as the cookieAcceptPolicy isn't being overridden elsewhere, and displays the HSBC authentication page instead of the error page.
 ```
