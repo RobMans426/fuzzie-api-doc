@@ -39,8 +39,8 @@ The response JSON will have a `message` key. Its value needs to be displayed to 
 
 ---------------------------------
 
-Note for app developers
------------------------
+Note for iOS app developers
+---------------------------
 
 Payment bug- HSBC webview cookies error. Solution given below by Braintree. Add this to the docs for future reference.
 
