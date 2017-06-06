@@ -35,7 +35,7 @@ Code: 422
 - Gift card sold out
 
 Code: 406
-The response JSON will have a `message` key. Its value needs to be displayed to the user. 
+The response JSON will have a `error` key. Its value needs to be displayed to the user. 
 
 ---------------------------------
 
