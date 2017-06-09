@@ -8,6 +8,6 @@ iOS
   
   Params: {
     message: 'test message',
-    payload: {redirect_to: 'home}
+    payload: {redirect_to: 'home'}
   }
 ```
