@@ -55,6 +55,8 @@ User object will be returned with this as well. Show the user a page similar to 
 3. 202
 
 This indicates that the user is a new one. The user data obtained from Facebook will be returned. Show the user a page similar to email signup with details prefilled (without the password) and empty phone number field. Submit this page using the FB register API given below.
+
+4. 201 - Success, OTP sent. 
 ```
 
 FB Signup
