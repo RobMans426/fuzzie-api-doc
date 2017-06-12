@@ -39,10 +39,10 @@ The response JSON will have a `error` key. Its value needs to be displayed to th
 
 ---------------------------------
 
-Note for iOS app developers
----------------------------
+Notes for iOS app developers
+----------------------------
 
-Payment bug- HSBC webview cookies error. Solution given below by Braintree. Add this to the docs for future reference.
+- Payment bug- HSBC webview cookies error. Solution given below by Braintree. Add this to the docs for future reference.
 
 ```
 Regarding the iOS case, I've performed a number of tests myself and confirmed that 
@@ -50,3 +50,10 @@ setting the cookieAcceptPolicy on NSHTTPCookieStorage sharedHTTPCookieStorageto
 NSHTTPCookieAcceptPolicyAlways works, as long as the cookieAcceptPolicy isn't being 
 overridden elsewhere, and displays the HSBC authentication page instead of the error page.
 ```
+Notes for Android app developers
+--------------------------------
+
+- [The fix for the bug with HSBC](https://github.com/braintree/braintree_android/releases/tag/2.5.4.)
+
+
+
