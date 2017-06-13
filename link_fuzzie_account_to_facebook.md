@@ -39,4 +39,5 @@ An array of `friends` sorted by their birthdays
     "last_name": "Noor",
     "name": "Farhan Noor"
   }
+ ]
 ```
