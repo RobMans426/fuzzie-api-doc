@@ -7,8 +7,8 @@ Request
 ```
 [POST] /api/accounts/link
 
-X-FUZZIE-TOKEN: 'dkslfjs'
-X-FACEBOOK-TOKEN: 'qwerew'
+X-FUZZIE-TOKEN: 'fuzzie-token'
+X-FACEBOOK-TOKEN: 'facebook-token'
 
 ```
 
@@ -38,5 +38,5 @@ An array of `friends` sorted by their birthdays
     "first_name": "Farhan",
     "last_name": "Noor",
     "name": "Farhan Noor"
-  },
+  }
 ```
