@@ -26,9 +26,9 @@ Response will be an array of `Bank` objects. A `Bank` object will be of the form
           "two",
           "three"
         ],
-        "enable_signup": false,
-        "signup_body": "",
-        "signup_url": ""
+        "enable_signup": true,
+        "signup_body": "this is test again",
+        "signup_url": "http://google.com/"
       }
     ]
   }
