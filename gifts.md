@@ -37,3 +37,19 @@ or
 ```
 {message: 'Only online gifts can be marked as unredeemed'}
 ```
+
+Get unopened gifts count for a User
+===================================
+
+`[GET] /api/gifts/upopened_gifts_count`
+
+Pass the header `X-FUZZIE-TOKEN`
+
+Response
+--------
+
+```
+{
+    "upopened_gifts_count": 1
+}
+```
