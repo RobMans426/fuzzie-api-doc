@@ -25,4 +25,6 @@ Given below are the various `redirect_to` values used in the pushes so far.
 2. {redirect_to: 'home'}
 3. {redirect_to: 'giftbox'}
 4. {redirect_to: 'referrals'}
+5. {redirect_to: 'friends'}
+6. {redirect_to: 'wishlist'} (own wishlist)
 ```
