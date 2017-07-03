@@ -9,6 +9,10 @@ Request
  
  params: {email: 'unni.tallman@gmail.com'}
  
+ Optional params:
+ 
+ {copy_to_self: "true"}
+ 
  also pass the X-FUZZIE-TOKEN header
 ```
 
